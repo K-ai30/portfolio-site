@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-        <meta charset=”UTF-8”>
-        <title>Portfolio Site</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset=”UTF-8”>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Portfolio Site</title>
 </head>
 
 <body>
         <div class="wrapper">
 
         <h1>Alia Kyle Perry</h1>
-
-        <h5 id="About">About</h5> 
-        <h5 id="Portfolio">Portfolio</h5> 
-        <h5 id="Contact">Contact</h5>
+        
+        <div class="navigation">
+				<a class="about-btn">About</a>
+				<a class="portfolio-btn">Portfolio</a>
+				<a class="contact-btn">Contact</a>
+        </div>
+        
+        <hr>
 
         <div class="push"></div>
+
+        <div class="container">
+
+        <h2>Contact Me</h2>
+
+        <hr style="width:960px">
+
+        <form>
+                Name<br>
+                <input type="text" name="Name" style="width:960px"><br>
+                Email<br>
+                <input type="text" name="Email" style="width:960px"><br>
+                Message<br>
+                <input type="text" name="Message" style="width:960px; height: 300px;"><br>
+                <br>
+                <button type="button">Submit</button>
+        </form>
+      </div>
     </div>
 
     <footer class="footer">
-        <p id="copyright">
-                <p>
-                    Copyright ©
-                </p>
-            </footer>
+            <p id="copyright">
+                Copyright &copy;
+            </p>
+    </footer>
 </body>
 </html>
