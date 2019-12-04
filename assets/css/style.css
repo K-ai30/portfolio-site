@@ -129,7 +129,6 @@ img {
 
 #star-wars {
     float: left;
-    clear: left;
 }
 
 #harry-potter {
@@ -139,6 +138,11 @@ img {
 
 #hunger-games {
     float: left;
+}
+
+#silver-wind {
+    float: left;
+    Clear: left;
 }
 
 /* Contact */
