@@ -1,13 +1,28 @@
 /* About (Index) */
 html, body {
-    height: 100%;
+    height: 90%;
     margin: 0;
     color: #777777;
 }
+#header {
+    background-color: #ffffff;
+    margin-top: 0px;
+}
 
 body {
-    background-image: url("assets/images/Subtle Grey 57kb.png");
+    background-image: url("../images/subtlegrey.jpg");
     background-repeat: repeat;
+}
+
+.navigation {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+a.about-btn:hover {
+    background-color: #4aaaa5;
+    height: 60px;
 }
 
 a.about-btn {
@@ -17,11 +32,21 @@ a.about-btn {
     margin: 10px;
 }
 
+a.portfolio-btn:hover {
+    background-color: #4aaaa5;
+    height: 60px;
+}
+
 a.portfolio-btn {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     display: inline-block;
     color: #777777;
     margin: 10px;
+}
+
+a.contact-btn:hover {
+    background-color: #4aaaa5;
+    height: 60px;
 }
 
 a.contact-btn {
@@ -54,7 +79,7 @@ h2 {
 }
 
 section {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border: #777777;
 }
 
